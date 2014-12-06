@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.wrapper {
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: auto;
+  border-radius: 1em;
+  
+  background: rgba(0,0,0,.8);
+  border: 1px solid #333;
+  -webkit-app-region: drag;
+}
+div#wrapper-BmaS {
+  background-color: transparent  !important;
+}
+span#url-BmaS {
+  background-color: transparent  !important;
+}
+
+span#h2-BmaS {
+  background-color: transparent  !important;
+}
+</style>
+<script src="jquery.min.js"></script>
+<script>
+setTimeout(function(){
+  var frame = $("#widget_iframe")[0];
+  var bdy = $(frame.contentDocument).find("body"); 
+  bdy.css ("background-color","transparent");
+}, 100);
+
+</script>
+</head>
+<title>
+</title>
+
+<body>
+<div style="filter:alpha(opacity=50); opacity:0.5;" class="wrapper" id='wrapper-BmaS'><span id='h2-BmaS'><a id='url-BmaS' href="http://www.weatherhq.co.uk/trabzon-kasımağzı">Weather Kasimagzi</a></span><div id='load-BmaS'></div><a id='url_detail-BmaS' href="http://www.weatherhq.co.uk/trabzon-kasımağzı">Detailed forecast</a></div><script type="text/javascript" src="http://widget.weatherhq.co.uk/widgetv3/widget_request/743891?bgcolor=6699cc&border=none&days=5&key=-BmaS&lang=en&maxtemp=yes&size=x215&textcolor=ffffff&unit=C&wind=yes" charset="utf-8"></script>
+
+
+</body>
+</html>
