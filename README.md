@@ -8,4 +8,4 @@ Move node-webkit files next to weathergadget.zip
 
 To run it:
 
-./nw ./node-webkit-weather-gadget-master.zip --enable-transparent-visuals --disable-gpu
+./nw ./weathergadget.zip --enable-transparent-visuals --disable-gpu
