@@ -1,0 +1,18 @@
+{
+    "name": "weather-widget",
+    "main": "index.html",
+    "window": {
+        "title": "Window Test",
+        "toolbar": false,
+        "position": "center",
+        "width": 400,
+        "height": 300,
+        "resizable": false,
+        "show": true,
+        "frame": false,
+        "transparent": true,
+        "show_in_taskbar":true,
+        "kiosk":false,
+        "always-on-top" : true
+    }
+}
