@@ -2,17 +2,16 @@
     "name": "weather-widget",
     "main": "index.html",
     "window": {
-        "title": "Window Test",
+        "title": "Forecasting",
         "toolbar": false,
         "position": "center",
-        "width": 400,
-        "height": 300,
+        "width": 405,
+        "height": 265,
         "resizable": false,
         "show": true,
         "frame": false,
         "transparent": true,
         "show_in_taskbar":true,
-        "kiosk":false,
-        "always-on-top" : true
+        "kiosk":false
     }
 }
