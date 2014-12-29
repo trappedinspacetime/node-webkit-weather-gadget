@@ -8,7 +8,7 @@
         "width": 405,
         "height": 265,
         "resizable": false,
-        "show": true,
+        "show": false,
         "frame": false,
         "transparent": true,
         "show_in_taskbar":true,
